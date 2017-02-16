@@ -1,0 +1,11 @@
+..\obj\objects\usart.o: ..\SYSTEM\usart\usart.c
+..\obj\objects\usart.o: ..\SYSTEM\sys\sys.h
+..\obj\objects\usart.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\objects\usart.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\objects\usart.o: C:\soft\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\objects\usart.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\objects\usart.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\objects\usart.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\objects\usart.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\objects\usart.o: ..\SYSTEM\usart\usart.h
+..\obj\objects\usart.o: C:\soft\keil\ARM\ARMCC\Bin\..\include\stdio.h
