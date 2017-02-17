@@ -1,53 +1,0 @@
-Dependencies for Project 'TEST', Target 'MobePhone': (DO NOT MODIFY !)
-F (.\startup_stm32f40_41xxx.s)(0x542E6B04)(--cpu Cortex-M4.fp -g --apcs=interwork -I D:\CODE\STM32F4\TEST\MobePhone\USER\RTE-I C:\soft\keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\soft\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F40_41xxx SETA 1"--list ..\obj\listings\startup_stm32f40_41xxx.lst --xref -o ..\obj\objects\startup_stm32f40_41xxx.o --depend ..\obj\objects\startup_stm32f40_41xxx.d)
-F (.\TEST.c)(0x58A5A092)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED-I D:\CODE\STM32F4\TEST\MobePhone\USER\RTE-I C:\soft\keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\soft\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\objects\test.o --omf_browse ..\obj\objects\test.crf --depend ..\obj\objects\test.d)
-I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
-I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
-I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
-I (C:\soft\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
-I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
-I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
-I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
-I (..\SYSTEM\delay\delay.h)(0x555D4A38)
-I (..\HARDWARE\LED\led.h)(0x58A5A1F4)
-F (..\SYSTEM\delay\delay.c)(0x55BF04B2)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED-I D:\CODE\STM32F4\TEST\MobePhone\USER\RTE-I C:\soft\keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\soft\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\objects\delay.o --omf_browse ..\obj\objects\delay.crf --depend ..\obj\objects\delay.d)
-I (..\SYSTEM\delay\delay.h)(0x555D4A38)
-I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
-I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
-I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
-I (C:\soft\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
-I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
-I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
-I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
-F (..\SYSTEM\sys\sys.c)(0x5528CA86)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED-I D:\CODE\STM32F4\TEST\MobePhone\USER\RTE-I C:\soft\keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\soft\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\objects\sys.o --omf_browse ..\obj\objects\sys.crf --depend ..\obj\objects\sys.d)
-I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
-I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
-I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
-I (C:\soft\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
-I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
-I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
-I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
-F (..\SYSTEM\usart\usart.c)(0x5528CD70)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED-I D:\CODE\STM32F4\TEST\MobePhone\USER\RTE-I C:\soft\keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\soft\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\objects\usart.o --omf_browse ..\obj\objects\usart.crf --depend ..\obj\objects\usart.d)
-I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
-I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
-I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
-I (C:\soft\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
-I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
-I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
-I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
-I (..\SYSTEM\usart\usart.h)(0x5528CC5C)
-I (C:\soft\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
-F (..\HARDWARE\LED\led.c)(0x58A5A1F4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED-I D:\CODE\STM32F4\TEST\MobePhone\USER\RTE-I C:\soft\keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\soft\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\objects\led.o --omf_browse ..\obj\objects\led.crf --depend ..\obj\objects\led.d)
-I (..\HARDWARE\LED\led.h)(0x58A5A1F4)
-I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
-I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
-I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
-I (C:\soft\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
-I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
-I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
-I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
